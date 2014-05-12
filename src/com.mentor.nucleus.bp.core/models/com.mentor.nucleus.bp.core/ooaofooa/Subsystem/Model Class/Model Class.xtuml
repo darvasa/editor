@@ -1816,6 +1816,23 @@ end for;',
 	1,
 	'',
 	"f1a5f54c-2f3e-4d38-9d5b-ecffdc78a14c");
+INSERT INTO O_TFR
+	VALUES ("767c4b96-4507-4f64-a4df-1ab54c4c5ec7",
+	"b7630071-9e2a-4183-9986-779dca14c275",
+	'isInPackage',
+	'',
+	"8e519c45-7dcf-400b-9d4e-954869dbb7e8",
+	1,
+	'select one package related by self->PE_PE[R8001]->EP_PKG[R8000];
+if (empty package)
+	return false;
+else
+	return true;
+end if;
+',
+	1,
+	'',
+	"ee548b22-87a3-41b0-96e4-501ea5511865");
 INSERT INTO O_NBATTR
 	VALUES ("abd8f188-4260-4e03-9844-41b21ef751b3",
 	"b7630071-9e2a-4183-9986-779dca14c275");
